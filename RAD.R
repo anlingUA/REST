@@ -1,12 +1,15 @@
  # File: RAD.R
 # Author: Kyle Carter
 # Contact: kcarter@math.arizona.edu
+# Contact: anling@arizona.edu
 
 # This file contains utility functions for performing bootstrap resampling
 # and generating RAD microbial source tracking for data with rarefied
 # integer abundance counts.
 
 #
+
+require(robCompositions)
 
 ZeroFilter=function(data){
   # Removes rows from an integer counts data frame that contain zero counts 

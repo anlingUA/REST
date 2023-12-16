@@ -55,8 +55,8 @@ constrained <- function(data_target,suspects){
 }
 
 ### optional ICC
-#### ICC
+
 library(psych)
 # data_in: put unknown (obtained from missing function above) from multiple replicates together; 
 #          cols are replicates, rows are OTUs ;
-ICC(data_in, lmer=FALSE)
+# ICC(data_in, lmer=FALSE)
